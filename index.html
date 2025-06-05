@@ -1,0 +1,267 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>FarmaFácil</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body class="bg-gray-100">
+
+  <!-- Cabeçalho -->
+<header class="bg-white shadow-md fixed top-0 left-0 right-0 z-50">
+  <div class="max-w-7xl mx-auto flex flex-wrap items-center justify-between p-2">
+    
+    <!-- Logo responsiva -->
+    <a href="index.html" class="flex items-center">
+      <img src="images/logosite.PNG" alt="Logo FarmaFácil" class="h-12 w-auto max-w-full">
+    </a>
+
+    <!-- Menu de navegação -->
+    <nav class="space-x-4 mt-2 sm:mt-0">
+      <a href="index.html" class="text-teal-700 hover:text-blue-600">Início</a>
+      <a href="Artigo.html" class="text-teal-700 hover:text-blue-600">Artigo</a>
+      <a href="contato.html" class="text-teal-700 hover:text-blue-600">Contato</a>
+    </nav>
+    
+  </div>
+</header>
+
+
+  <!-- Banner rotativo -->
+  <section class="pt-20 relative h-[400px] overflow-hidden">
+    <div class="absolute inset-0 z-0">
+      <img id="banner1" src="images/banner1.jpg" class="banner-img opacity-100" />
+      <img id="banner2" src="images/banne2.jpg" class="banner-img opacity-0" />
+    </div>
+
+    <!-- Texto sobreposto -->
+    <div class="banner-overlay">
+      <div class="text-center text-white px-4">
+        <h2 class="text-3xl md:text-4xl font-bold"><strong>Bem-Vindo!</strong></h2>
+        <p class="mt-2 text-lg max-w-2xl mx-auto">
+          Sem receita, sem complicações! Produtos de confiança com entrega sigilosa e qualidade garantida. Fale com nossos especialistas e receba seu orçamento agora mesmo!
+        </p>
+      </div>
+    </div>
+  </section>
+<section class="bg-gray-100 py-7 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    
+    <!-- Título -->
+  <h2 class="text-3xl font-bold text-teal-600 mb-6">
+  Compromisso com Qualidade, Segurança e Economia
+</h2>
+    <!-- Banner (imagem abaixo do título) -->
+    <div class="mb-6">
+      <img src="images/bnner5.png" alt="Banner compromisso" class="w-full rounded-lg shadow-md" />
+    </div>
+
+    <!-- Parágrafo justificado -->
+    <p class="text-gray-700 text-lg text-justify leading-relaxed">
+      Nosso compromisso vai além da venda produtos. Prezamos pela excelência no atendimento, pela procedência dos nossos produtos e por preços acessíveis que cabem no seu bolso. Trabalhamos com fornecedores confiáveis, priorizamos a segurança em todas as etapas e oferecemos uma experiência de compra simples, rápida e discreta. Confiança, bem-estar e economia são os pilares que sustentam o nosso atendimento a cada cliente.
+    </p>
+
+  </div>
+</section>
+<section class="bg-white py-10 px-4">
+  <div class="max-w-6xl mx-auto text-center">
+    <div class="grid grid-cols-1 md:grid-cols-3 gap-8">
+      
+      <!-- Bloco 1 -->
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <img src="images/receita.jpg" alt="Prescrição" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold text-teal-600 mb-2">Peça apenas o que estiver prescrito</h3>
+        <p class="text-gray-600 text-sm">
+          Sabe quando o médico prescreve 15 comprimidos, mas a caixa vem com 30? Aqui fornecemos só o necessário, evitando desperdícios.
+        </p>
+      </div>
+
+      <!-- Bloco 2 -->
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <img src="images/receita2.jpg" alt="Desperdício" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold text-teal-600 mb-2">Evite o desperdício de produto</h3>
+        <p class="text-gray-600 text-sm">
+          Comprar fracionado evita sobras e descarte incorreto. Um passo para um consumo mais sustentável.
+        </p>
+      </div>
+
+      <!-- Bloco 3 -->
+      <div class="p-6 bg-gray-50 rounded-lg shadow-md hover:shadow-lg transition duration-300">
+        <img src="images/rceita3.jpg" alt="Economia" class="mx-auto mb-4 h-24">
+        <h3 class="text-xl font-semibold text-teal-600 mb-2">Economize em seu tratamento</h3>
+        <p class="text-gray-600 text-sm">
+          Você paga apenas pelo que vai usar. Sem desperdício, sem pagar pelo produto desnecessários.
+        </p>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="bg-white py-1 px-4">
+  <div class="max-w-xl mx-auto text-center">
+    <a href="https://wa.me/551151966608" target="_blank"
+       class="inline-flex items-center gap-2 bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full shadow-lg transition duration-300">
+      <svg class="w-5 h-5 fill-current" viewBox="0 0 32 32">
+        <path d="M16.002 2.98C8.81 2.98 2.98 8.812 2.98 16.004c0 2.829.741 5.555 2.146 7.97l-1.417 5.185 5.307-1.393a13.01 13.01 0 0 0 6.986 1.985c7.193 0 13.02-5.832 13.02-13.02S23.194 2.98 16.002 2.98zm.024 23.545c-2.293 0-4.54-.633-6.486-1.826l-.465-.277-3.149.826.84-3.082-.296-.498a10.997 10.997 0 0 1-1.632-5.775c0-6.07 4.938-11.008 11.006-11.008 6.072 0 11.008 4.938 11.008 11.008 0 6.072-4.937 11.006-11.006 11.006zm6.34-8.328c-.349-.174-2.064-1.016-2.384-1.131-.32-.118-.553-.174-.786.174s-.902 1.129-1.105 1.363c-.202.235-.403.262-.752.088-.349-.174-1.476-.545-2.812-1.739-1.039-.926-1.74-2.067-1.945-2.416-.202-.349-.022-.537.151-.711.155-.155.349-.403.524-.604.174-.202.232-.349.349-.58.118-.232.059-.437-.03-.611-.088-.174-.786-1.9-1.078-2.599-.284-.684-.573-.592-.786-.602l-.67-.012c-.232 0-.61.088-.928.437-.32.349-1.215 1.186-1.215 2.896s1.243 3.358 1.415 3.594c.174.232 2.443 3.73 5.922 5.228.827.356 1.471.569 1.973.729.829.265 1.582.228 2.177.139.664-.099 2.064-.842 2.355-1.654.291-.813.291-1.51.203-1.654-.087-.146-.32-.235-.669-.403z"/>
+      </svg>
+      Solicitar Atendimento
+    </a>
+  </div>
+</section>
+
+<!-- Seção visível apenas em celulares, com imagem centralizada -->
+<section class="sm:hidden flex p-3 bg-white">
+  <div class="w-1/3 flex justify-center items-center bg-white">
+    <img src="images/tize2.png" alt="Tirzepatide Manipulado" class="w-100 h-30">
+  </div>
+  <div class="w-2/3 bg-gray-100 text-black text-justify px-1 py-2">
+    <p class="text-sm">
+      O tirzepatide manipulado tem o mesmo princípio ativo das marcas, mas com valor mais acessível. Não é de aplicação em caneta (click), e sim frascos-ampola para administração subcutânea com seringa, facilitando o tratamento com economia.
+    </p>
+  </div>
+</section>
+
+<section class="bg-white py-4 px-4">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center gap-8">
+    
+    <!-- Imagem -->
+    <div class="md:w-1/2">
+      <img src="images/envio.jpg" alt="Entrega para todo o Brasil" class="w-full max-w-md mx-auto rounded-xl shadow-lg">
+    </div>
+
+    <!-- Texto -->
+    <div class="md:w-1/2 text-teal-800">
+      <h2 class="text-2xl md:text-3xl font-bold mb-4 flex items-center gap-2">
+        🚚 Entregamos para todo o Brasil!
+      </h2>
+      <p class="text-lg text-gray-700 mb-4">
+        Seu produto chega com total segurança, discrição e na temperatura ideal.
+      </p>
+      <ul class="space-y-2 text-gray-700 text-base">
+        <li>✔️ Qualidade garantida do início ao fim.</li>
+        <li>✔️ Transporte especializado e confiável.</li>
+        <li>✔️ Com a gente, seu pedido está em boas mãos!</li>
+      </ul>
+    </div>
+
+  </div>
+</section>
+
+<section class="bg-white py-4 px-4">
+  <div class="max-w-4xl mx-auto text-center">
+    
+    <!-- Título -->
+    <h2 class="text-3xl md:text-4xl font-bold text-gray-800 mb-4 flex items-center justify-center gap-2">
+      💊 Produtos Originais com Garantia de Qualidade
+    </h2>
+
+    <!-- Parágrafo -->
+    <p class="text-lg text-gray-700 mb-6 leading-relaxed">
+      Adquira seus produtos sem receita, com eficácia comprovada e procedência confiável. <br />
+      Contamos com envio rápido, seguro e 100% discreto para todo o Brasil.
+    </p>
+
+    <!-- Chamada para ação -->
+    <a href="https://wa.me/551151966608" target="_blank"
+       class="inline-block bg-green-500 hover:bg-green-600 text-white font-semibold py-3 px-6 rounded-full shadow-md transition duration-300">
+      Fale com um consultor agora
+    </a>
+    
+  </div>
+</section>
+
+<section class="bg-white py-3 px-4">
+  <div class="max-w-6xl mx-auto">
+    <h2 class="text-2xl md:text-3xl font-bold text-center text-red-800 mb-10">
+      O que nossos clientes dizem
+    </h2>
+
+    <div class="grid md:grid-cols-2 gap-6">
+      
+      <!-- Depoimento 1 -->
+      <div class="bg-blue-100 p-6 rounded-xl shadow-md flex flex-col">
+        <p class="text-gray-800 text-lg mb-4 leading-relaxed">
+          "Recebi meu pedido no prazo e em perfeitas condições. A embalagem estava impecável! Muito agradecida!"
+        </p>
+        <div class="flex items-center gap-4 mt-auto">
+          <img src="images/mulher.jpeg" alt="Cliente 1" class="w-12 h-12 rounded-full border-2 border-white shadow">
+          <span class="font-semibold text-gray-700">Cloe Maria Costa - Empresária.</span>
+        </div>
+      </div>
+
+      <!-- Depoimento 2 -->
+      <div class="bg-blue-100 p-6 rounded-xl shadow-md flex flex-col">
+        <p class="text-gray-800 text-lg mb-4 leading-relaxed">
+          "O produto chegou antes do esperado e super bem embalado. Atendimento excelente, obrigado!"
+        </p>
+        <div class="flex items-center gap-4 mt-auto">
+          <img src="images/homem.jpg" alt="Cliente 2" class="w-12 h-12 rounded-full border-2 border-white shadow">
+          <span class="font-semibold text-gray-700">João Paulo Cunha - Vendedor.</span>
+        </div>
+      </div>
+
+    </div>
+  </div>
+</section>
+<section class="bg-gray-50 py-7 px-3">
+  <div class="max-w-5xl mx-auto text-center">
+    <h2 class="text-3xl md:text-4xl font-bold text-teal-700 mb-6">
+      Nossos produtos
+    </h2>
+    <p class="text-gray-700 text-lg text-justify  leading-relaxed max-w-3xl mx-auto">
+      Oferecemos uma ampla variedade de produtos, itens de cuidados pessoais e suplementos. Na <strong>FarmaFácil</strong>, garantimos qualidade comprovada em todos os nossos produtos, com disponibilidade contínua e atendimento dedicado para você.
+    </p>
+  </div>
+   <div class="md:w-1/2  py-3 ">
+      <img src="images/medic.png" alt="Entrega para todo o Brasil" class="w-full max-w-md mx-auto rounded-xl shadow-lg">
+    </div>
+</section>
+<footer class="bg-teal-700 text-white py-4 px-4">
+  <div class="max-w-6xl mx-auto flex flex-col md:flex-row items-center justify-between">
+    
+    <!-- Nome -->
+    <h2 class="text-2xl font-bold mb-4 md:mb-0">
+      FarmaFácil
+    </h2>
+
+    <!-- Pagamentos -->
+    <div class="text-center md:text-right">
+        <p>© 2023 Todos os direitos reservados</p>
+      <p class="mb-2">Aceitamos todos os cartões, parcelamos em 10x sem juros e Pix</p>
+      
+      <div class="flex items-center justify-center md:justify-end gap-4">
+        <!-- Visa -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/4/41/Visa_Logo.png" alt="Visa" class="h-6 w-auto bg-white p-1 rounded" />
+        <!-- Mastercard -->
+        <img src="https://upload.wikimedia.org/wikipedia/commons/0/04/Mastercard-logo.png" alt="Mastercard" class="h-6 w-auto bg-white p-1 rounded" />
+        <!-- Elo -->
+        <img src="images/elo-30.png" alt="Elo" class="h-6 w-auto bg-white p-1 rounded" />
+        <!-- Pix -->
+        <img src="images/pix2.png" alt="Pix" class="h-6 w-auto bg-white p-1 rounded" />
+      </div>
+    </div>
+    
+  </div>
+  <!-- Botão flutuante WhatsApp -->
+<a href="https://wa.me/551151966608" target="_blank" class="whatsapp-btn" aria-label="WhatsApp">
+  <img src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg" alt="WhatsApp" />
+</a>
+
+</footer>
+
+
+  <script>
+    let index = 0;
+    const banners = [document.getElementById('banner1'), document.getElementById('banner2')];
+
+    setInterval(() => {
+      banners[index].style.opacity = '0';
+      index = (index + 1) % banners.length;
+      banners[index].style.opacity = '1';
+    }, 5000);
+  </script>
+
+</body>
+</html>
